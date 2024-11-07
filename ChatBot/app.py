@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, jsonify
 import os
 from groq import Groq
 
-client = Groq(api_key = "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")
+client = Groq(api_key = "API_KEY")
 
 
 app = Flask(__name__)
